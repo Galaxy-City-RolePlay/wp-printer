@@ -1,7 +1,7 @@
 Config = {}
 
-Config.Framework = 'qb' -- supports 'qb' or 'esx'
-Config.Notify = 'qb' -- supports 'qb', 'esx', 'ox' (if using ox enable @ox_lib/init.lua in the manifest)
+Config.Framework = 'esx' -- supports 'qb' or 'esx'
+Config.Notify = 'esx' -- supports 'qb', 'esx', 'ox' (if using ox enable @ox_lib/init.lua in the manifest)
 
 Config.ValidExtensions = {
     [".png"] = true,
